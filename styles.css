@@ -1,0 +1,136 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.title {
+    font-size: 32px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #FF5733;
+}
+
+.destacado {
+    font-weight: bold;
+    color: #FF5733;
+}
+
+a:hover {
+    color: #FF5733;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+.aviso {
+    background-color: yellow;
+    border: 1px solid #FFD700;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.aviso:hover {
+    background-color: #FFD700;
+    color: white;
+}
+
+/* Estilos para el modo oscuro */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode table.table-dark tbody tr {
+    background-color: #333;
+}
+
+/* Estilos para la sección de Kratos */
+#kratos {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+#kratos h2 {
+    color: #FF5733;
+}
+
+#kratos img {
+    max-width: 100%;
+    height: auto;
+}
+
+#kratos .caracteristica {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 5px;
+}
+
+#kratos h4 {
+    color: #FF5733;
+}
+
+/* Estilos para el botón de modo oscuro */
+#dark-mode-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#dark-mode-btn:hover {
+    background-color: #555;
+}
